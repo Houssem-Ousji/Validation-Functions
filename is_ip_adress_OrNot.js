@@ -11,4 +11,3 @@ function is_Ip_Adress_OrNot(text) {
     return true;
 
 };
-console.log(is_Ip_Adress_OrNot('250.255.-12.14'));
