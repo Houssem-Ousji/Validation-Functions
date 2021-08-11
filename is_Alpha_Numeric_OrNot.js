@@ -1,12 +1,11 @@
 function is_Alpha_Numeric_OrNot(text) {
-    var test = true
     for (let x of text) {
         if ((65 <= x.toUpperCase().charCodeAt()) && (x.toUpperCase().charCodeAt() <= 90)) {
-            test = true;
+            continue;
         } else if ((0 <= x) && (x <= 9)) {
-            test = true;
+            continue;
         } else {
-            return false
+            return false;
         }
     }
     return true;
